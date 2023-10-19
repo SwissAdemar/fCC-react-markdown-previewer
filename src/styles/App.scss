@@ -1,0 +1,48 @@
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#preview {
+    width: 40vw;
+    min-height: 70vh;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.editor-wrapper {
+    margin-top: 1rem;
+    min-width: 35vw;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    
+    #editor { 
+        width: 100%;
+        resize: vertical;
+        flex: 1 1 auto;
+        border-top: 1px solid white;
+        padding: .5rem;
+    }
+
+    .editor-title {
+        font-size: 21px;
+        align-self: flex-start;
+        padding: .5rem 1.5rem;
+        
+    }
+}
+
+
+
+

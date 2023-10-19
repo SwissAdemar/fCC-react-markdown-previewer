@@ -1,0 +1,60 @@
+.markdown {
+    
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    blockquote {
+        border-left: 3px solid black;
+        padding-left: .5rem;
+    }
+
+    & > * {
+        line-height: 1.5rem;
+        word-wrap: break-word;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+  
+    th,
+    td {
+      padding: .25rem;
+      border: 1px solid white;
+    }
+  
+   
+    pre {
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        padding: 1rem;
+        overflow-x: scroll;
+        &:hover {
+            background: white;
+            color: black;
+        }
+    }
+
+    h1 {
+        padding-bottom: 1rem;
+        border-bottom: 2px solid white;
+        text-align: center;
+    }
+
+    h2 {
+        padding-bottom: .6rem;
+        border-bottom: 1px solid white;
+        text-align: center;
+    }
+
+    p > img{
+        max-width: 100%;
+        max-height: 10vh;
+        margin: 2rem auto;
+    }
+
+    li{
+        margin-left: 1rem;
+    }
+  }
